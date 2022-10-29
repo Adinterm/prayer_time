@@ -1122,6 +1122,6 @@ root.geometry('900x580')
 
 #root.configure(bg='white')
 root.resizable(0,0)
-icon_photo = PhotoImage(file=os.path.dirname(os.getcwd())+'/GUI_Jadwal_Shalat/Data/icon.png')
+icon_photo = PhotoImage(file=os.path.dirname(os.getcwd())+'/Prayer_time/Data/icon.png')
 root.iconphoto(False, icon_photo)
 root.mainloop()
